@@ -5,7 +5,11 @@
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
-  padding: 20px;
+  padding-right: 20px;
+  // to put Navbar and home page on top of each other
+  //add flex 1 for content as well to make it work
+  display:flex;
+  flex-direction: column;
 
   @include lg{
     background-color: rgb(221, 169, 72);
@@ -19,4 +23,8 @@
     background-color: rgb(227, 101, 101);
 }
 
+
+.content{
+    flex: 1;
+}
 }
