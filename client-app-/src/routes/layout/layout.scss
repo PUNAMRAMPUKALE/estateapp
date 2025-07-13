@@ -25,6 +25,8 @@
 
 
 .content{
-    flex: 1;
+    // flex: 1;
+    //bcz scroll on list page was not working properly
+    height: calc(100vh - 100px);
 }
 }
