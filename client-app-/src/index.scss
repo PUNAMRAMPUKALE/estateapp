@@ -1,0 +1,30 @@
+/* 
+  Global Reset: Apply to all elements 
+  - Remove default margin and padding 
+  - Use border-box for consistent sizing
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 
+  Anchor tag styling 
+  - Remove underline from links 
+  - Inherit color from parent element (prevents default blue color)
+*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 
+  Body styling 
+  - Set a clean sans-serif font (Lato)
+  - Disable scrolling (use only if intentional; be cautious)
+*/
+body {
+  font-family: "Lato", sans-serif;
+}
