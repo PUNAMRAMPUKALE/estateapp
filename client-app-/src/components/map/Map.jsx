@@ -5,7 +5,7 @@ import Pin from '../pin/Pin';
 import "leaflet/dist/leaflet.css";
 import './map.scss'
 
-function Map({items}) {
+function Map({items=[]}) {
 
   return (
     <MapContainer center={[52.4797, -1.90269]} zoom={7} scrollWheelZoom={false} className='map'>
